@@ -13,3 +13,7 @@ days.forEach(function( day, index){
     console.log(`${day}, ${index+1}`)
   }
 )
+
+
+
+
