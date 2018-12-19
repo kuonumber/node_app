@@ -13,8 +13,10 @@ var person = function( name, nickName, phone, memberNo, birthYear){
     this.birthYear = birthYear
 }
 
-person.prototype.ageCal = () => console.log( 2018 - this.birthYear)
-
+person.prototype.ageCal = function(){ 
+    console.log( 2018 - this.birthYear)
+}
+    
 var Tom = new person('Tom', 'Lion', 080808, 123123, 1988);
 
 console.log(Tom)
